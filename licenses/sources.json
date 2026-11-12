@@ -1,0 +1,32 @@
+[
+  {
+    "file": "MapLibre-Native-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/maplibre/maplibre-native/android-v11.13.0/LICENSE.md",
+    "sha256": "554cff8b6f6d2e77629e8c6eab769844ab86adc610ca2d60401ba2e0dce3c229"
+  },
+  {
+    "file": "MapLibre-Native-core.txt",
+    "source": "https://raw.githubusercontent.com/maplibre/maplibre-native/android-v11.13.0/LICENSES.core.md",
+    "sha256": "c1d534a4b5fae889b621653660d54420188168462a1c04c7e3830a8599661d0c"
+  },
+  {
+    "file": "MapLibre-Native-Android.txt",
+    "source": "https://raw.githubusercontent.com/maplibre/maplibre-native/android-v11.13.0/platform/android/LICENSE.md",
+    "sha256": "05577afe02354b0cde1b968a0893979d0742c36da6248662ae10967e0c7c1fea"
+  },
+  {
+    "file": "Apache-2.0.txt",
+    "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "MapLibre-GL-JS-LICENSE.txt",
+    "source": "MapLibre GL JS 5.12.0 runtime bundled with APK",
+    "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2"
+  },
+  {
+    "file": "MapLibre-GL-JS-bundle.txt",
+    "source": "MapLibre GL JS 5.12.0 runtime bundled with APK",
+    "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2"
+  }
+]

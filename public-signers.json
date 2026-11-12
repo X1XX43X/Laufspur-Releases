@@ -1,0 +1,8 @@
+{
+  "packageName": "de.micha.runningapp",
+  "minimumSdk": 29,
+  "rotationMinimumSdk": 28,
+  "legacyCertificateSha256": "4b0ab887701a4e64d8c9425c6d2789d65d2df127055561ecf0b0a948af76ffc9",
+  "releaseCertificateSha256": "925627143b2ad78ac5d9351af33ca0fafcbcba3931f57439c068bbb0e60a1e13",
+  "lineageSha256": "947b7215b0c59cb4a408781b5a15986ac798912ff7489ef432e8a6b5368e4009"
+}
