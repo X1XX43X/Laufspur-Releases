@@ -1,1 +1,1 @@
-1dbcc6e15bf6de3ee909bc683cf3ab351696639b890043cc069f5cead0ae8f57  Laufspur-0.24.0-beta.1.apk
+a106816bcb28228f6ee975acbdca1e575d72e74300519b52bea777d5bc486524  Laufspur-0.24.1-beta.1.apk

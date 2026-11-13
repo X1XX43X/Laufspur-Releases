@@ -1,8 +1,8 @@
 # Laufspur: offene Nutzertests
 
-Stand: 12.11.2026 · App: 0.24.0-beta.1 · Android ab Version 10
+Stand: 13.11.2026 · App: 0.24.1-beta.1 · Android ab Version 10
 
-Diese Liste prüft vorhandene Funktionen, deren Gerätetest noch nicht vollständig abgeschlossen ist. Aktuell neu: Infoseite (T32) und öffentliche Beta/Update (T33). Sprachwahl (T30) und gezielte Offlinekarten (T31) weiterhin am Gerät prüfen. Frühere Prüfpunkte bleiben offen, soweit sie nicht durch dokumentiertes Nutzerfeedback bestätigt wurden.
+Diese Liste prüft vorhandene Funktionen, deren Gerätetest noch nicht vollständig abgeschlossen ist. Aktuell: Korrektur der schwarzen 3D-Karte (T25); Infoseite (T32) und öffentliche Beta/Update (T33) weiterhin prüfen. Sprachwahl (T30) und gezielte Offlinekarten (T31) weiterhin am Gerät prüfen. Frühere Prüfpunkte bleiben offen, soweit sie nicht durch dokumentiertes Nutzerfeedback bestätigt wurden.
 
 ## So gibst du hilfreiches Feedback
 
@@ -70,7 +70,7 @@ Diese Liste prüft vorhandene Funktionen, deren Gerätetest noch nicht vollstän
 
 ## Neu: 3D-Gelände, experimentell
 
-- **T25 – Geländeansicht:** Bei einer gespeicherten Aktivität mit Internet „3D-Gelände öffnen“ wählen, am besten bei hügeliger Strecke. Werden echte Hügel/Täler und Strecke sichtbar, endet die Ladeanzeige? Verschieben, Drehen, Neigen, Zoomen und „Strecke einpassen“ flüssig? Quellen/Lizenzen öffnen und wieder schließen. Zur normalen Karte zurückkehren: Aktivität, Kamera und Statistiken erhalten? GPS-Höhen ändern sich dadurch nicht. Lange Strecken dürfen in 3D vereinfacht sein; GPS-Lücken bleiben getrennt. Bei ausgeschalteter Onlinekarte bleibt die Option deaktiviert. Ohne Netz/bei Ladefehler verständliche Anzeige, Rückkehr möglich, kein Absturz? Bei Problemen Screenshot und möglichst Android-System-WebView-/Chrome-Version nennen; diese neue Ansicht ist noch nicht auf echter Android-Hardware abgenommen.
+- **T25 – Geländeansicht:** Bei einer gespeicherten Aktivität mit Internet „3D-Gelände öffnen“ wählen, am besten bei hügeliger Strecke. Werden echte Hügel/Täler und Strecke sichtbar, endet die Ladeanzeige? Verschieben, Drehen, Neigen, Zoomen und „Strecke einpassen“ flüssig? Quellen/Lizenzen öffnen und wieder schließen. Zur normalen Karte zurückkehren: Aktivität, Kamera und Statistiken erhalten? GPS-Höhen ändern sich dadurch nicht. Lange Strecken dürfen in 3D vereinfacht sein; GPS-Lücken bleiben getrennt. Bei ausgeschalteter Onlinekarte bleibt die Option deaktiviert. Ohne Netz/bei Ladefehler verständliche Anzeige, Rückkehr möglich, kein Absturz? Bei Problemen Screenshot und möglichst Android-System-WebView-/Chrome-Version nennen; der bisherige schwarze Kartenbereich wurde korrigiert und im Android-14-Emulator mit echtem WebView geprüft. Die Abnahme auf echter Hardware, insbesondere OnePlus 9 Pro/Android 14, bleibt offen.
 
 ## Neu: Sechs Ansagesprachen
 
@@ -108,7 +108,7 @@ Diese Liste prüft vorhandene Funktionen, deren Gerätetest noch nicht vollstän
 
 ## Neu: öffentliche Beta installieren
 
-- **T33 – Update:** Vorab vollständige ZIP-Sicherung erstellen. Offizielle GitHub-APK als Update installieren, ohne Laufspur zu deinstallieren. Bleiben Aktivitäten, Notizen, Profil, Einstellungen und Offline-Regionen erhalten? App heißt danach „Laufspur“, Version 0.24.0-beta.1. Eine neue kurze Testaktivität speichern, alte öffnen.
+- **T33 – Update:** Vorab vollständige ZIP-Sicherung erstellen. Offizielle GitHub-APK als Update installieren, ohne Laufspur zu deinstallieren. Bleiben Aktivitäten, Notizen, Profil, Einstellungen und Offline-Regionen erhalten? App heißt danach „Laufspur“, Version 0.24.1-beta.1. Eine neue kurze Testaktivität speichern, alte öffnen.
 - **Neue Installation:** Auf einem anderen entbehrlichen Testgerät APK über den offiziellen HTTPS-Download beziehen und öffnen. Ohne Medien-Spezialzugriff sollen Aufzeichnung/Karten nutzbar bleiben; Standort nur für gewählte Funktionen freigeben.
 - **Bei einer Warnung:** genauen Wortlaut, App-Version, Handy und Bezugsquelle melden. Play Protect eingeschaltet lassen; bei blockiertem Update keine Daten durch Deinstallation löschen. Die Signaturhistorie ist technisch geprüft, echte Geräteinstallation und Google-/WhatsApp-Bewertung sind noch nicht abgenommen.
 
