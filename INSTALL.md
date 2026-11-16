@@ -1,7 +1,7 @@
 # Installation und Update
 
 1. Bei vorhandener Laufspur zunächst unter Einstellungen → Sicherung & Wiederherstellung eine vollständige ZIP-Sicherung anlegen.
-2. Die [APK der Beta 0.24.1-beta.1](https://github.com/X1XX43X/Laufspur-Releases/releases/download/v0.24.1-beta.1/Laufspur-0.24.1-beta.1.apk) über diese offizielle HTTPS-Adresse laden. Kein GitHub-Login nötig. Über WhatsApp am besten diesen Downloadlink oder die Release-Seite teilen.
+2. Die [APK der Beta 0.25.0-beta.1](https://github.com/X1XX43X/Laufspur-Releases/releases/download/v0.25.0-beta.1/Laufspur-0.25.0-beta.1.apk) über diese offizielle HTTPS-Adresse laden. Kein GitHub-Login nötig. Über WhatsApp am besten diesen Downloadlink oder die Release-Seite teilen.
 3. Datei auf dem Handy öffnen. Android kann für den verwendeten Browser/Dateimanager die Erlaubnis „Unbekannte Apps installieren“ verlangen; nur der bewusst gewählten Quelle erlauben und anschließend wieder ausschalten. Play Protect eingeschaltet lassen und dessen Prüfung abwarten.
 4. Vorhandene App **als Update** installieren, nicht deinstallieren. Danach Aktivitäten, Profil und Einstellungen kontrollieren. Android ab 10 erforderlich.
 
@@ -10,6 +10,8 @@
 Die öffentliche Beta heißt auf dem Handy „Laufspur“. Ältere APKs hießen „Laufspur · Test“. Paket bleibt gleich; seit 0.24.0-beta.1 dauerhafter Release-Schlüssel mit kryptografisch geprüfter alter→neuer Signaturhistorie. API 29–36 technisch geprüft; tatsächlicher Updateversuch mit Nutzerdaten am Handy noch offen.
 
 Falls Android das Update ablehnt: genaue Meldung melden, vorhandene App/Daten behalten und keine Deinstallation erzwingen. Nach dem Wechsel keine ältere Test-APK installieren; ein Rückweg auf den alten Schlüssel ist nicht vorgesehen. ZIP-Sicherung ist vollständiger als GPX und enthält bei gewähltem Umfang auch Einstellungen/Profil. Offline-Regionen sind nicht Bestandteil der ZIP.
+
+Neue ZIP-Sicherungen verwenden v16 und benötigen Laufspur 0.25 oder neuer. Ältere Sicherungen v1–v15 bleiben lesbar. Für die Einführung der Updatefunktion diese APK einmal über den obigen Link installieren; spätere Versionen können von der Infoseite aus im Browser heruntergeladen werden.
 
 ## Sicherheitsmeldungen
 

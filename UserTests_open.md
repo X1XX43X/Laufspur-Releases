@@ -1,8 +1,8 @@
 # Laufspur: offene Nutzertests
 
-Stand: 13.11.2026 · App: 0.24.1-beta.1 · Android ab Version 10
+Stand: 16.11.2026 · App: 0.25.0-beta.1 · Android ab Version 10
 
-Diese Liste prüft vorhandene Funktionen, deren Gerätetest noch nicht vollständig abgeschlossen ist. Aktuell: Korrektur der schwarzen 3D-Karte (T25); Infoseite (T32) und öffentliche Beta/Update (T33) weiterhin prüfen. Sprachwahl (T30) und gezielte Offlinekarten (T31) weiterhin am Gerät prüfen. Frühere Prüfpunkte bleiben offen, soweit sie nicht durch dokumentiertes Nutzerfeedback bestätigt wurden.
+Diese Liste prüft vorhandene Funktionen, deren Gerätetest noch nicht vollständig abgeschlossen ist. Aktuell neu: Updateprüfung und Erinnerungen (T34); Korrektur der schwarzen 3D-Karte (T25); Infoseite (T32) und öffentliche Beta/Update (T33) weiterhin prüfen. Sprachwahl (T30) und gezielte Offlinekarten (T31) weiterhin am Gerät prüfen. Frühere Prüfpunkte bleiben offen, soweit sie nicht durch dokumentiertes Nutzerfeedback bestätigt wurden.
 
 ## So gibst du hilfreiches Feedback
 
@@ -108,9 +108,18 @@ Diese Liste prüft vorhandene Funktionen, deren Gerätetest noch nicht vollstän
 
 ## Neu: öffentliche Beta installieren
 
-- **T33 – Update:** Vorab vollständige ZIP-Sicherung erstellen. Offizielle GitHub-APK als Update installieren, ohne Laufspur zu deinstallieren. Bleiben Aktivitäten, Notizen, Profil, Einstellungen und Offline-Regionen erhalten? App heißt danach „Laufspur“, Version 0.24.1-beta.1. Eine neue kurze Testaktivität speichern, alte öffnen.
+- **T33 – Update:** Vorab vollständige ZIP-Sicherung erstellen. Offizielle GitHub-APK als Update installieren, ohne Laufspur zu deinstallieren. Bleiben Aktivitäten, Notizen, Profil, Einstellungen und Offline-Regionen erhalten? App heißt danach „Laufspur“, Version 0.25.0-beta.1. Eine neue kurze Testaktivität speichern, alte öffnen.
 - **Neue Installation:** Auf einem anderen entbehrlichen Testgerät APK über den offiziellen HTTPS-Download beziehen und öffnen. Ohne Medien-Spezialzugriff sollen Aufzeichnung/Karten nutzbar bleiben; Standort nur für gewählte Funktionen freigeben.
 - **Bei einer Warnung:** genauen Wortlaut, App-Version, Handy und Bezugsquelle melden. Play Protect eingeschaltet lassen; bei blockiertem Update keine Daten durch Deinstallation löschen. Die Signaturhistorie ist technisch geprüft, echte Geräteinstallation und Google-/WhatsApp-Bewertung sind noch nicht abgenommen.
+
+## Neu: Updates
+
+- **T34 – Prüfen:** App mit Internet öffnen. Unter Einstellungen → Über Laufspur stimmen installierte Version, Prüfstatus und Datum der letzten erfolgreichen Prüfung? „Erneut prüfen“ funktioniert; bei fehlendem Internet erscheint kein falsches „Version aktuell“. Nach Internet-Rückkehr erneut öffnen: eine gescheiterte Prüfung darf den Tag nicht sperren.
+- **Abschalten:** „Automatisch nach Updates suchen“ ausschalten, App schließen/neu öffnen: Auswahl erhalten, keine automatische Anfrage/kein Popup? Manuelle Prüfung und „Alle Versionen“ bleiben erreichbar. Einstellung nach Sicherung/Import erhalten?
+- **Neues Update:** Sobald eine höhere Version erhältlich ist, automatischer Hinweis mit „Aktualisieren“, „Jetzt nicht“ und „Nicht mehr fragen“. Aktualisieren öffnet die passende APK im Browser; „Alle Versionen“ öffnet GitHub-Releases. Kein GitHub-Konto erforderlich. Als Update ohne Deinstallation installieren; vorhandene Aktivitäten bleiben erhalten.
+- **Später:** „Jetzt nicht“ wählen, innerhalb von 24 Stunden erneut öffnen: kein erneuter Hinweis auf diese Version. Frühestens nach vollen 24 Stunden und erneutem Öffnen wieder fragen, solange nicht installiert. Diesen Zeitraum tatsächlich abwarten; nicht als sofort geprüft abhaken.
+- **Überspringen:** „Nicht mehr fragen“ wählen: auch nach App-Neustart kein automatischer Hinweis für dieselbe Version; eine spätere höhere Version darf wieder angeboten werden. Manuell bleibt der Download erreichbar. Diese Fälle sind erst bei verfügbaren neuen Versionen vollständig prüfbar.
+- **Bedienung:** Große Schrift/eine andere beherrschte Sprache testen; alle drei Popup-Aktionen sichtbar? Während laufender Aufzeichnung/Startvorbereitung und Dateivorgängen kein störendes Updatepopup. Der normale Android-Installationsdialog bleibt ein eigener Schritt.
 
 ## Rückmeldung zum Kopieren
 

@@ -1,6 +1,6 @@
 # Daten und Berechtigungen der Beta
 
-Stand 12.11.2026. Technische Beschreibung des aktuellen Verhaltens; kein Google-Prüfsiegel.
+Stand 16.11.2026. Technische Beschreibung des aktuellen Verhaltens; kein Google-Prüfsiegel.
 
 ## Auf dem Handy
 
@@ -9,6 +9,12 @@ Laufspur speichert Aktivitäten einschließlich GPS-Punkten, Zeiten, optionalen 
 ## Netzwerk und Karten
 
 Onlinekarten und bewusst bestätigte Offline-Downloads kontaktieren den Kartenanbieter: standardmäßig OpenFreeMap mit Daten von OpenStreetMap/OpenMapTiles; experimentelles 3D zusätzlich Mapterhorn. Anbieter sehen IP-Adresse und angeforderte Kartenbereiche, woraus sich ungefähre Aufenthalts-/Streckenbereiche ableiten lassen. Bei eigener Kartenquelle gilt entsprechend deren Anbieter. Die App sendet nicht den vollständigen Aktivitäts-/Profilbestand an einen Laufspur-Server. Onlinekarten können in Einstellungen abgeschaltet werden. Karten-/3D-Lizenzen und Attribution werden angezeigt; Anbieterinformationen: [OpenFreeMap](https://openfreemap.org/), [OSM](https://www.openstreetmap.org/copyright), [Mapterhorn](https://mapterhorn.com/attribution/).
+
+## Updateprüfung
+
+Standardmäßig prüft Laufspur beim sichtbaren App-Start einmal pro Tag erfolgreich die öffentlichen Releases auf GitHub; fehlgeschlagene Versuche zählen nicht. Dabei erhält GitHub die IP-Adresse und die App-Version im User-Agent. Keine Aktivitäten, GPS-Punkte, Profildaten oder Playerdaten werden dafür übertragen; kein GitHub-Konto/Token in der App. Unter Einstellungen → Über Laufspur abschaltbar. „Erneut prüfen“ bleibt eine bewusste manuelle Abfrage. Prüfzeiten, zwischengespeicherte Versionsinformationen und Popup-Entscheidungen bleiben gerätelokal; sie werden nicht per ZIP auf andere Handys übertragen. Die Automatik-Einstellung selbst gehört zum wählbaren Sicherungsbereich Einstellungen.
+
+Ein verfügbarer APK-Download wird nur nach einer Nutzeraktion im Browser geöffnet. GitHub/Browser und Android verarbeiten Download beziehungsweise Installation. Keine zusätzliche Installationsberechtigung innerhalb Laufspurs.
 
 ## Freiwillige Freigaben
 
