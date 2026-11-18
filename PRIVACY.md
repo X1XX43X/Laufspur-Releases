@@ -1,6 +1,6 @@
 # Daten und Berechtigungen der Beta
 
-Stand 16.11.2026. Technische Beschreibung des aktuellen Verhaltens; kein Google-Prüfsiegel.
+Stand 18.11.2026. Technische Beschreibung des aktuellen Verhaltens; kein Google-Prüfsiegel.
 
 ## Auf dem Handy
 
@@ -19,12 +19,14 @@ Ein verfügbarer APK-Download wird nur nach einer Nutzeraktion im Browser geöff
 ## Freiwillige Freigaben
 
 - Präziser Standort für Aufzeichnung oder ausdrücklich gewählte aktuelle Kartenposition. Laufende Aufzeichnung/Startbereitschaft nutzt einen sichtbaren Standortdienst; keine pauschale Hintergrund-Standortberechtigung.
-- Benachrichtigungen für laufende Werte, gewünschte Erfolge und Sicherungsergebnisse. Sperrbildschirmwerte konfigurierbar.
+- Benachrichtigungen für laufende Werte, gewünschte Erfolge, Sicherungsergebnisse und die abschaltbare Erinnerung ans Beenden. Vibration dient auf Wunsch dieser Erinnerung und wird zusammen mit der kurzen Ansage durch Handymodus und App-Einstellungen begrenzt. Sperrbildschirmwerte konfigurierbar.
 - Mediensteuerung braucht optionalen Android-Benachrichtigungszugriff, um die gewählte Player-Sitzung zu steuern. Kein Player-Konto/Passwort in Laufspur. Der Android-Spezialzugriff ist technisch weitreichend; nur aktivieren, wenn die Medienfunktion gewünscht ist. Medienmetadaten werden nicht in Aktivitäten gespeichert.
 - System-Dateiauswahl für selbst gewählten Sicherungsordner, Import und Export. Keine pauschale Freigabe aller Dateien. Cloudordner können über den selbst gewählten Dateianbieter synchronisieren.
-- Ansagen verwenden verfügbare Android-Offline-Stimmen. Player/TTS-Engine/Dateianbieter unterliegen zusätzlich ihren eigenen Bedingungen.
+- Ansagen und Hörprobe verwenden verfügbare Android-Offline-Stimmen. Installiertes Sprachmodul, Stimme und Sprechtempo lassen sich je Sprache wählen; keine eigene Cloud-Sprachsynthese in Laufspur. Player/TTS-Engine/Dateianbieter unterliegen zusätzlich ihren eigenen Bedingungen.
 
 ## Teilen und Sicherungen
+
+Beim Bearbeiten von Start/Ziel bleiben ursprüngliche GPS-Punkte, Ereignisse und Zeiten intern erhalten, damit Grenzen später erneut verändert werden können. Die normale Aktivitätsansicht, Vergleiche und PNG/GPX verwenden den gespeicherten Ausschnitt. Vollständige ZIP-Sicherungen enthalten auch die Originaldaten und die Bearbeitung. Löschen der internen Aktivität entfernt auch diese Originaldaten.
 
 PNG/GPX werden nur durch eine Nutzeraktion exportiert/weitergegeben. Zielapp erhält die gewählten Daten. Privatzonen kürzen auf Wunsch die geteilte Linie; volle Statistik bleibt, Originalaktivität unverändert. Karte, Datum, Notizen, Gesamtwerte und sichtbare Umgebung können weiter persönliche Rückschlüsse erlauben: keine zugesicherte Anonymisierung. ZIP-Sicherungen enthalten die ausdrücklich ausgewählten Bereiche; keine Privatzonen-Kürzung. Vor Weitergabe selbst prüfen.
 

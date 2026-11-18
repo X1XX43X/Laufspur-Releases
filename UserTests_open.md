@@ -1,6 +1,6 @@
 # Laufspur: offene Nutzertests
 
-Stand: 16.11.2026 · App: 0.25.0-beta.1 · Android ab Version 10
+Stand: 18.11.2026 · App: 0.26.0-beta.1 · Android ab Version 10
 
 Diese Liste prüft vorhandene Funktionen, deren Gerätetest noch nicht vollständig abgeschlossen ist. Aktuell neu: Updateprüfung und Erinnerungen (T34); Korrektur der schwarzen 3D-Karte (T25); Infoseite (T32) und öffentliche Beta/Update (T33) weiterhin prüfen. Sprachwahl (T30) und gezielte Offlinekarten (T31) weiterhin am Gerät prüfen. Frühere Prüfpunkte bleiben offen, soweit sie nicht durch dokumentiertes Nutzerfeedback bestätigt wurden.
 
@@ -14,7 +14,7 @@ Diese Liste prüft vorhandene Funktionen, deren Gerätetest noch nicht vollstän
 ## Aufzeichnung und Messwerte
 
 - **T01 – Längere Aktivität:** 30–60 Minuten aufzeichnen, Display mindestens 15 Minuten sperren und zwischen Apps wechseln. Bleiben Zeit/Strecke plausibel und genau eine Aufzeichnung aktiv? Akku vor/nachher notieren.
-- **T02 – Bedienung/Benachrichtigung:** Pause, Fortsetzen und manuelle Runde in der App und in der laufenden Benachrichtigung bedienen. Zeigt sie Distanz/Zeit korrekt? Nach Beenden ist die Aktivität gespeichert und die laufende Dienstmeldung endet; nach Verlassen der App keine weitere Aufzeichnung.
+- **T02 – Bedienung/Benachrichtigung:** Pause, Fortsetzen und manuelle Runde in der App und in der laufenden Benachrichtigung bedienen. Zeigt sie Distanz/Zeit korrekt? Nach Beenden ist die Aktivität gespeichert und die laufende Dienstmeldung endet; danach keine weitere Aufzeichnung. Das bloße Verlassen der Oberfläche beendet eine noch laufende Aufzeichnung dagegen nicht.
 - **T03 – GPS/Internet:** Eine bekannte Strecke draußen mit WLAN an und einmal ohne WLAN/mobile Daten aufzeichnen; GPS bleibt an. Wächst die Entfernung in beiden Fällen? Bei Empfangsverlust darf kein großer Sprung entstehen; nach Rückkehr läuft die Aufnahme weiter.
 - **T04 – Autopause:** In „Aufzeichnung & Ansagen“ einschalten, Bestätigungszeit merken. Länger stehen bleiben, wieder anlaufen; zusätzlich langsam wandern. Wird Stillstand erkannt, ohne langsame Bewegung falsch zu pausieren? Manuelle Pause bleibt bis zum Fortsetzen bestehen.
 - **T05 – Runden:** Beim Laufen Rundenmodus wählen, möglichst drei Runden auf einer bekannten Bahn laufen. Genau eine Runde pro Startpassage? Danach fehlende/falsche Runden bearbeiten und Länge z. B. von 404 auf 400 m korrigieren. Ändern sich Entfernung/Tempo passend, während ein Reststück erhalten bleibt?
@@ -108,7 +108,7 @@ Diese Liste prüft vorhandene Funktionen, deren Gerätetest noch nicht vollstän
 
 ## Neu: öffentliche Beta installieren
 
-- **T33 – Update:** Vorab vollständige ZIP-Sicherung erstellen. Offizielle GitHub-APK als Update installieren, ohne Laufspur zu deinstallieren. Bleiben Aktivitäten, Notizen, Profil, Einstellungen und Offline-Regionen erhalten? App heißt danach „Laufspur“, Version 0.25.0-beta.1. Eine neue kurze Testaktivität speichern, alte öffnen.
+- **T33 – Update:** Vorab vollständige ZIP-Sicherung erstellen. Offizielle GitHub-APK als Update installieren, ohne Laufspur zu deinstallieren. Bleiben Aktivitäten, Notizen, Profil, Einstellungen und Offline-Regionen erhalten? App heißt danach „Laufspur“, Version 0.26.0-beta.1. Eine neue kurze Testaktivität speichern, alte öffnen.
 - **Neue Installation:** Auf einem anderen entbehrlichen Testgerät APK über den offiziellen HTTPS-Download beziehen und öffnen. Ohne Medien-Spezialzugriff sollen Aufzeichnung/Karten nutzbar bleiben; Standort nur für gewählte Funktionen freigeben.
 - **Bei einer Warnung:** genauen Wortlaut, App-Version, Handy und Bezugsquelle melden. Play Protect eingeschaltet lassen; bei blockiertem Update keine Daten durch Deinstallation löschen. Die Signaturhistorie ist technisch geprüft, echte Geräteinstallation und Google-/WhatsApp-Bewertung sind noch nicht abgenommen.
 
@@ -120,6 +120,15 @@ Diese Liste prüft vorhandene Funktionen, deren Gerätetest noch nicht vollstän
 - **Später:** „Jetzt nicht“ wählen, innerhalb von 24 Stunden erneut öffnen: kein erneuter Hinweis auf diese Version. Frühestens nach vollen 24 Stunden und erneutem Öffnen wieder fragen, solange nicht installiert. Diesen Zeitraum tatsächlich abwarten; nicht als sofort geprüft abhaken.
 - **Überspringen:** „Nicht mehr fragen“ wählen: auch nach App-Neustart kein automatischer Hinweis für dieselbe Version; eine spätere höhere Version darf wieder angeboten werden. Manuell bleibt der Download erreichbar. Diese Fälle sind erst bei verfügbaren neuen Versionen vollständig prüfbar.
 - **Bedienung:** Große Schrift/eine andere beherrschte Sprache testen; alle drei Popup-Aktionen sichtbar? Während laufender Aufzeichnung/Startvorbereitung und Dateivorgängen kein störendes Updatepopup. Der normale Android-Installationsdialog bleibt ein eigener Schritt.
+
+## Neu: Navigation, Stimmen und Start/Ziel
+
+- **T35 – Zurücknavigation:** Einstellungen → Design öffnen. Zweimal Android-Zurück: erst Einstellungsübersicht, dann Aufzeichnung? Karten → Offlinekarten öffnen: Zurück führt zuerst zu Karten, dann zur Einstellungsübersicht. Ebenso Aktivitäten → Aktivität → Liste → Aufzeichnung. Erneutes Antippen von Einstellungen auf einer Unterseite öffnet die Übersicht. Bei laufender Testaufzeichnung aus Aufzeichnung zurück zum Handybildschirm wechseln: läuft sie weiter und lässt sich über die Benachrichtigung wieder öffnen/beenden?
+- **T36 – Offline-Stimme:** Unter Aufzeichnung & Ansagen Sprachmodul, Stimme und Sprechtempo wählen, Hörprobe hören und speichern. Klingen echte Ansagen danach wie die Hörprobe? Eine zweite beherrschte Sprache wählen: bleiben deren Stimme/Tempo getrennt gespeichert? Nach Neustart und ohne Internet testen. Stoppt die Hörprobe beim Verlassen? Player/Kopfhörer und verwendetes Sprachmodul nennen; Natürlichkeit und Verständlichkeit bewerten.
+- **T37 – Start/Ziel korrigieren:** Eine Testaktivität öffnen → Aktivität bearbeiten → Start/Ziel bearbeiten. Start später und Ziel früher setzen, über Karte, Regler oder Zeiten. Stimmen grüne/rote Markierung und Vorschau? Speichern: Strecke, Zeiten und Statistiken passen; Liste/Vergleich/PNG/GPX zeigen den gekürzten Stand? Erneut öffnen, Grenzen wieder erweitern beziehungsweise Original wiederherstellen. Es bleibt eine Aktivität, Notiz und Kartenwahl bleiben erhalten. Abbrechen mit ungespeicherten Änderungen verändert nichts. Optional Runden, GPS-Lücke und Sicherung/Import prüfen; für diese Tests keine Originalaktivität löschen. Sehr alte Aufzeichnungen ohne Punktzeiten erhalten einen Hinweis und bleiben unverändert.
+- **T38 – Erinnerung ans Beenden:** Wartezeit zunächst auf 1 Minute stellen und speichern. Nach etwas Bewegung draußen mit gutem GPS stehen bleiben: eine Erinnerung, keine automatische Beendigung/Kürzung? „Weiter aufzeichnen“ lässt die Aufnahme laufen; bei demselben Stillstand keine erneute Meldung. Wieder bewegen: Vorschlag verschwindet. Mit „Beenden“ stoppen, anschließend früheren Endpunkt prüfen und nur bei passender Vorschau speichern. Auch bei älteren Aktivitäten kann ein Vorschlag erscheinen, wenn ein längerer Stillstand am Ende gut aufgezeichnet wurde. Fehlender Empfang und manuelle Pause dürfen keine Erinnerung auslösen.
+- **Erinnerung und Handymodus:** Vibration/kurze Ansage in der App getrennt an-/abschalten. Lautlos und „Nicht stören“: keine Ansage/Vibration; Vibrationsmodus: keine Ansage. Bei normalem Modus gemäß App-Einstellung und Android-Benachrichtigungskanal testen, auch bei gesperrtem Display. Falls Meldungen blockiert sind, System-Benachrichtigungseinstellungen nennen.
+- **Noch am echten Handy offen:** Natürlichkeit aller Stimmen/Sprachmodule, Bluetooth-/Hörbuchverhalten, GPS-Erkennung langsamer Bewegung, tatsächliche Vibration und Benachrichtigung bei gesperrtem Display. Automatische Tests dieser Abläufe ersetzen diese Rückmeldung nicht.
 
 ## Rückmeldung zum Kopieren
 
